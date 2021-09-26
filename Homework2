@@ -1,7 +1,0 @@
-#!/bin/bash
-touch info.txt
-date > info.txt
-whoami >> info.txt
-uname >> info.txt
-ls -l | grep "^d" | wc  -l >> info.txt
-ls -laR | grep "^-" | wc -l >> info.txt
