@@ -16,6 +16,14 @@ def pluz(arg1, arg2):
         pass
     return arg1 + arg2
 
-print(pluz(arg1, arg2))
 
+def test():
+    print(pluz(1, 2))
+    print(pluz('1', 2))
+    print(pluz(1, '2'))
+    print(pluz('1','2'))
+    print(pluz([1], [2]))
+    print(pluz(1, [2])) # А вот здесь будет TypeError
 
+if __name__ == '__main__':
+    test()
