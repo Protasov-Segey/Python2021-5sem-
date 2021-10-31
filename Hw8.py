@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[66]:
-
-
 def file_reader_first(file):
     for line in file:
         yield print(line.strip())
