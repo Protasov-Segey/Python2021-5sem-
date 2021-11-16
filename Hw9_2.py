@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[11]:
-
-
 import random
 
 
@@ -59,4 +53,3 @@ def task_scheduler():
             all_connections.append(connect_user(customer))
             
 task_scheduler()
-
