@@ -23,47 +23,6 @@ with open('Cline Ernest. Ready Player One.txt', 'r') as file:
     for i in range(100):  #Вывод 100 строчек
         next(generator2)
     
-    #assert generator1 == generator2
+    assert generator1 == generator2
     #Как я понимаю, я создал 2 генератора, которые считывают попеременно 1 и тот же файл, с того же места
         
-
-
-# In[51]:
-
-
-def repeate(value, num_times: int = 5):
-    print('Started.')
-    
-    current_num_times = 0
-    
-    while True:
-        if current_num_times >= num_times:
-            break
-        
-        print('Before yield.')
-
-        yield print(value)  # Именно это делает генератор генератором!
-        
-        print('After yield.')
-        
-        current_num_times += 1
-    
-    print('Finished.')
-
-generator = repeate(value=-17.5)
-next(generator)
-next(generator)
-print(type(repeate))
-
-
-# In[53]:
-
-
-cd 
-
-
-# In[ ]:
-
-
-
-
