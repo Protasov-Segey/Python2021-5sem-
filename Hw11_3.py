@@ -6,7 +6,7 @@ class Goodbyer:
 def print_goodbye(self):
 print('Bye!')'''
 
-print(re.findall("(?=def).+\s+.+.+", d))
+print(re.findall("(?=def).+\s+.+.+", s))
 
 
 
